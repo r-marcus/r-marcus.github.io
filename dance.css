@@ -1,0 +1,28 @@
+h1{
+  color: white;
+  font-size: 65px;
+}
+
+body {
+  background: url("https://images.pond5.com/background-dance-blurred-people-dancing-footage-084071682_prevstill.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+
+.button{
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 14px 40px;
+  background-color: white;
+  color: black;
+  font-family: georgia;
+  border:2px solid #555555;
+}
+.button:hover{
+  background-color: #555555;
+  color: white;

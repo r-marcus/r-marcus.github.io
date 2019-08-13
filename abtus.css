@@ -1,0 +1,43 @@
+body {
+  background: url("https://cdn130.picsart.com/251893094006202.jpg?r1024x1024");
+  background-repeat:no-repeat;
+
+  background-size:cover;
+}
+h2 {
+  font-family: georgia;
+}
+
+p{
+  font-family: georgia;
+  font-size: 30px;
+}
+h1{
+  font-family: georgia;
+  font-size: 70px
+}
+div{
+  font-family: georgia;
+}
+
+
+font{
+  font-family: georgia;
+}
+
+.button{
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 14px 40px;
+  background-color: white;
+  color: black;
+  font-family: georgia;
+  border:2px solid #555555;
+}
+.button:hover{
+  background-color: #555555;
+  color: white;

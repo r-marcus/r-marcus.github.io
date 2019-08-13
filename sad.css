@@ -1,0 +1,26 @@
+body {
+  background: url("https://mnhealthycommunities.org/wp-content/uploads/2018/04/iStock-493476120.jpg");
+  background-repeat:no-repeat;
+
+  background-size:cover;
+}
+h1{
+  color:white;
+  font-size: 35px;
+}
+.button{
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 14px 40px;
+  background-color: white;
+  color: black;
+  font-family: georgia;
+  border:2px solid #555555;
+}
+.button:hover{
+  background-color: #555555;
+  color: white;

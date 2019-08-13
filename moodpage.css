@@ -1,0 +1,63 @@
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+h1{
+  font-family: georgia;
+  font-size: 50px;
+}
+h2{
+  font-family: georgia;
+}
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+body {
+  background: url("https://wallpaperbro.com/img/10948.jpg");
+  background-repeat:no-repeat;
+
+  background-size:cover;
+}
+
+.button{
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 14px 40px;
+  background-color: white;
+  font-family: georgia;
+  color: black;
+  border:2px solid #555555;
+}
+.button:hover{
+  background-color: #555555;
+  color: white;
+}
